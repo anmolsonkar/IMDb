@@ -15,7 +15,9 @@ This project comprises frontend and backend components demonstrating concurrent 
 
     `git clone https://github.com/anmolsonkar/IMDb.git`
 
-2.  Install dependencies in both frontend and backend:
+2.  Install dependencies at the root level: `npm install`
+
+3.  Install dependencies in both frontend and backend:
 
     `cd frontend`
 
@@ -25,7 +27,7 @@ This project comprises frontend and backend components demonstrating concurrent 
 
     `npm install`
 
-3.  Configure environment variables:
+4.  Configure environment variables:
 
     Create a `.env` file in the backend folder with the following:
 
@@ -41,8 +43,7 @@ To concurrently run frontend and backend:
 
 This command utilizes the `concurrently` package to execute:
 
-`cd frontend && npm run dev
-cd backend && npm run dev`
+`cd frontend && npm run dev` and `cd backend && npm run dev`
 
 ## Author
 
