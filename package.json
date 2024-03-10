@@ -1,0 +1,14 @@
+{
+  "name": "imdb",
+  "version": "1.0.0",
+  "description": "This project comprises frontend and backend components demonstrating concurrent execution.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd Frontend && npm run dev\" \"cd Backend && npm run dev\""
+  },
+  "author": "Anmol Sonkar",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
