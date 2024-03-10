@@ -1,4 +1,4 @@
-# IMDb
+# IMDb Top 1000 Movies
 
 This project comprises frontend and backend components demonstrating concurrent execution.
 
