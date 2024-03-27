@@ -42,7 +42,7 @@ const Home = ({ user }) => {
 	const fetchData = async (pageNumber) => {
 		try {
 			setLoading(true);
-			const res = await axios.get(`http://localhost:4000/posts?page=${pageNumber}`);
+			const res = await axios.get(`https://imdbserver.onrender.com/posts?page=${pageNumber}`);
 			if (pageNumber === 1) {
 				setMovies(res.data.data);
 			} else {

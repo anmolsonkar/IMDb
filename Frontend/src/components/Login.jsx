@@ -21,7 +21,7 @@ function Login() {
         setLoading(true);
         try {
             const res = await axios.post(
-                'http://localhost:4000/login',
+                'https://imdbserver.onrender.com/login',
                 data,
                 {
                     withCredentials: true,

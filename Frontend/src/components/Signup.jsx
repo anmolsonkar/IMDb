@@ -21,7 +21,7 @@ function SignUp() {
         setLoading(true);
         try {
             const res = await axios.post(
-                'http://localhost:4000/signup',
+                'https://imdbserver.onrender.com/signup',
                 data,
                 {
                     withCredentials: true,

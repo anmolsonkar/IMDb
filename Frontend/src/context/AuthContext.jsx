@@ -44,7 +44,7 @@ export const AuthContextProvider = ({ children }) => {
             try {
                 if (cookies.jwt) {
                     const { data } = await axios.post(
-                        "http://localhost:4000",
+                        "https://imdbserver.onrender.com",
                         {},
                         { withCredentials: true }
                     );

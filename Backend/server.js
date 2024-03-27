@@ -22,7 +22,7 @@ const URI = process.env.MONGODB_URI;
 
 app.use(
     cors({
-        origin: ["http://localhost:3000"],
+        origin: ["https://top1000imdbmovies.onrender.com", "http://localhost:3000"],
         methods: ["GET", "POST"],
         credentials: true,
     })
