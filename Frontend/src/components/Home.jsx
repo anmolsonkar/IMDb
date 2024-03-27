@@ -29,7 +29,7 @@ const Home = ({ user }) => {
 
 	useEffect(() => {
 		if (!welcome) {
-			toast.success(`Welcome, ${user.email}`);
+			toast.success(`Welcome, ${user && user.email || `admin@gmail.com`}`);
 			sessionStorage.setItem('welcomeShown', true);
 		}
 	}, [user]);

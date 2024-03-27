@@ -19,10 +19,12 @@ const App = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Routes>
-        <Route path='/' element={authUser ? <Home user={user && user} /> : <Navigate to={"/login"} />} />
+        {/* <Route path='/' element={authUser ? <Home user={user && user} /> : <Navigate to={"/login"} />} />
         <Route path='/login' element={authUser ? <Navigate to='/' /> : <Login />} />
         <Route path='/signup' element={authUser ? <Navigate to='/' /> : <SignUp />} />
-        <Route path='/*' element={authUser ? <Home /> : <Navigate to={"/login"} />} />
+        <Route path='/*' element={authUser ? <Home /> : <Navigate to={"/login"} />} /> */}
+        <Route path='/*' element={<Home />} />
+
       </Routes>
     </div>
 
