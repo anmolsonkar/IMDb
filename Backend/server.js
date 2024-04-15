@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const routes = require('./routes/routers');
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 
 const app = express();
 const URI = process.env.MONGODB_URI;
